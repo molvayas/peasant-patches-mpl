@@ -66,4 +66,3 @@ index 8798227b949..8edee7d711b 100644
    brave_component_updater::BraveOnDemandUpdater::GetInstance()
        ->RegisterOnDemandUpdater(
            base::CommandLine::ForCurrentProcess()->HasSwitch(
-
