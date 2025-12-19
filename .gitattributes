@@ -1,0 +1,6 @@
+# Prevent line ending conversion for patch files
+# This is critical for binary patches which contain encoded binary data
+*.patch binary
+
+# Also protect the series file
+series text eol=lf
